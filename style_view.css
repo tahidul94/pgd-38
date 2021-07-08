@@ -1,0 +1,53 @@
+
+
+body{
+	background: url(img/5.jpg);
+	background-size: cover;
+
+}
+
+
+.main-view{
+	background: #dfe4ea;
+}
+
+.head{
+background:#74b9ff;
+
+}
+
+.head-right{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.photo{
+margin-top: 30px;
+}
+
+.tr1{
+	border:1px solid;
+	width: 95%;
+	font-size: 17px;
+	font-weight: bold;
+	background: rgba(0,0,0,0.1);
+
+
+}
+
+.add
+{
+	border:1px solid;
+	width: 95%;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	background: rgba(0,0,0,0.1);
+}
+.add-head{
+	width: 95%;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+}

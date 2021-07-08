@@ -1,0 +1,405 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+	background: url(img/5.jpg);
+	background-size: cover;
+
+}
+
+.header{
+
+	/*background: #0984e3;*/
+	background:#74b9ff;
+}
+
+#header-right{
+	padding-top: 50px;
+	padding-left: 50px;
+	color: white;
+}
+
+.nav{
+	padding-top: 15px; 
+background: #0984e3;
+color: white;
+border-top: 2px solid white;
+height: 60px;
+}
+
+.nav1{
+	text-align: center;
+	border-left: 2px solid white;
+	border-right: 1px solid white;
+}
+
+a{
+
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.main{
+	/*background: #60a3bc;*/
+
+    background: rgba(9, 132, 227,0.2);
+	padding-top: 100px;
+	margin: auto;
+	padding-bottom: 30px;
+
+}
+
+.btn1{
+
+	position: relative;
+    height: 50px;
+    width: 400px;
+    border-radius: 6px;
+     
+    background: #0984e3;
+    border:none;
+    font-weight: bold;
+    font-size: 18px;
+    left: 350px;
+    margin-bottom: 50px;
+}
+
+.sub-footer{
+	background: rgba(9, 132, 227,0.7);
+	text-align: center;
+}
+
+.footer{
+	padding-top: 15px;
+	margin-top:10px; 
+	height: 60px;
+	border:1px solid black;
+}
+
+/*Circular part */
+
+.cicular-table{
+	width: 80%;
+	margin: auto;
+
+}
+
+.circular-table-head{
+	height: 50px;
+	background: #0984e3;
+	border-bottom: 2px solid white;
+	color: white;
+	padding-left: 20px;
+}
+
+.circular-table-td1{
+	background:#09ace2;
+	height: 50px;
+	border-bottom: .5px solid white;
+	color: white;
+	padding-left: 20px;
+}
+
+.circular-table-td2{
+	background:#0996c1;
+	height: 50px;
+	border-bottom: .5px solid white;
+	color: white;
+	padding-left: 20px;
+}
+
+.circular-table-td3{
+	background:#09ace2;
+	height: 50px;
+	border-bottom: .5px solid white;
+	color: white;
+	padding-left: 20px;
+}
+
+
+.pp{
+	text-align: right;
+	position: relative;
+	left: 15px;
+}
+
+
+
+.form{
+	width: 95%;
+     background: rgba(9, 132, 227,0.2);
+/*	padding-top: 20px;*/
+	margin: auto;
+	padding: 30px;
+	border-top: 1px solid white;
+	box-sizing: border-box;
+
+}
+
+.form-head{
+	background: rgba(0,0,0,0.3);
+	height: 40px;
+}
+
+.normal-input{
+	height: 40px;
+	width: 500px;
+	border-radius: 5px;
+	margin-top: 10px;
+	border:1.5px solid #0984e3;
+}
+
+.normal-input:focus{
+	border:2.5px solid #0984e3;
+}
+
+.input-label{
+	line-height: 30px;
+	margin-top: 10px;
+}
+
+.address{
+	border:1px solid black;
+	height: 300px;
+	width: 45%;
+	margin: 15px;
+	float: left;
+}
+
+.address-label{
+
+	width: 30%;
+	margin-top: 10px;
+	float: left;
+}
+
+.address-in{
+ 	width: 60%;
+	float: left;
+}
+
+.address-input{
+	height: 40px;
+	width: 250px;
+	border-radius: 5px;
+	margin-top: 10px;
+	border:1.5px solid #0984e3;
+}
+
+.address-input:focus{
+	border:2.5px solid #0984e3;
+}
+
+
+.ssc-main{
+	border:1px solid black;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+
+}
+
+.edu-head{
+	width: 103%;
+	height: 40px;
+	background: rgba(0,0,0,0.3);
+	position: relative;
+	left: -15px;
+}
+
+.edu-left{
+	width: 45%;
+	float:left;
+}
+
+.edu-right{
+	width: 45%;
+	float:left;
+
+}
+
+.edu-hidden{
+	visibility: hidden;
+}
+
+.edu-gpa{
+	visibility: visible;
+}
+
+
+.form-footer{
+	width: 100%;
+	height: 100px;
+	background: rgba(0,0,0,0.3);
+	text-align: center;
+	padding-top: 10px;
+}
+
+.submit-btn{
+	width: 150px;
+	height: 40px;
+	border-radius: 2px;
+	background: #0984e3;
+	border:none;
+	font-weight: bold;
+	color: white;
+}
+
+.login-form{
+	border:2px solid #74b9ff;
+	padding: 80px;
+	margin-bottom: 50px;
+}
+.login-form h4{
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+.login-label{
+	position: relative;
+	top: 15px;
+}
+
+.login-btn{
+	width: 150px;
+	height: 40px;
+	border-radius: 2px;
+	background: rgba(50,100,200,0.5);
+	border:none;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-left: 23px;
+	color: white;
+}
+
+
+.admin-main{
+	 background: rgba(9, 132, 227,0.2);
+	padding-top: 0px;
+	margin: auto;
+	padding-bottom: 30px;
+
+
+}
+.logout-btn{
+	height: 50px;
+	width: 100px;
+	background: #0984e3;
+	border-radius: 5px;
+
+}
+
+.wellcome{
+	font-weight: bold;
+	color: white;
+}
+
+.menubar{
+	margin: 0px;
+}
+
+.slidebar{
+	line-height: 40px;
+	font-weight: bold;
+	color: white;
+	font-size: 17px;
+	background:#74b9ff; 
+	padding: 0px;
+	
+}
+.slidebar ul li{
+list-style: none;
+border-bottom: 2px solid white;
+padding-bottom: 0px;
+}
+
+.slidebar ul li:hover{
+background:#0984e3;	
+box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+.menu-btn{
+	position: relative;
+	height: 50px;
+	font-weight: bold;
+	background:rgba(9, 132, 227,0.5);
+	color: white;
+	border:none;
+	box-shadow: 1px,2px,2px,2px rgba(0,0,0,0.6);
+	left: -15px; 
+}
+
+.active{
+	position: relative;
+	left: -700px;
+}
+.active-btn{
+    position: relative;
+	left: -356px;	
+
+} 
+
+.menu-btn span:before{
+	content: "";
+	position: absolute;
+	top: 7px;
+	left: 0;
+	width:100%;
+	height: 3px;
+	background: white;
+	transition: 2s;
+}
+
+
+.menu-btn span:after{
+	content: "";
+	position: absolute;
+	top: 17px;
+	left: 0;
+	width:100%;
+	height: 3px;
+	background: white;
+	transition: 2s;
+}
+
+.toggle span{
+	color:rgba(9, 132, 227,0.5);
+}
+
+.toggle span:after{
+	
+	top:25;
+	transform: rotate(45deg);
+}
+
+.toggle span:before{
+	top:25;
+	transform: rotate(135deg);
+}
+.update-right{
+	position: relative;
+	left: -250px;
+}
+.radio-btn{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.updatabase-btn{
+ height: 50px;
+    width: 400px;
+    border-radius: 6px;  
+    background: #0984e3;
+    border:none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+
+}

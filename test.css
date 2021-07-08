@@ -1,0 +1,24 @@
+.input1{
+	border: 1px solid red;
+	}
+
+#new-input-id{
+border-radius: 5px;
+height: 40px;
+}
+
+.input2{
+
+	border: 1px solid blue;
+}
+
+.border{
+	border:1px solid yellow;
+}
+
+.hello{
+	background: blue;
+}
+.green{
+	background: green;
+}
